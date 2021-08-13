@@ -1,0 +1,19 @@
+body {
+  font-family: Raleway-Medium;
+  background-color: #b2ac88;
+}
+
+h1 {
+  font-family: Pinkerston-Italic;
+  font-size: 65px;
+  color: white;
+  border: 3px solid tan;
+  border-radius: 20%;
+}
+
+main {
+  height: 300px;
+  background-image: url("assets/Woman_Herb.jpg");
+  background-position: center;
+  text-align: center;
+}
