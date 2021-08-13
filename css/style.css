@@ -1,19 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-  font-family: Raleway-Medium;
-  background-color: #b2ac88;
+    margin: 0;
+    background-color: #E2E1DC;
 }
 
-h1 {
-  font-family: Pinkerston-Italic;
-  font-size: 65px;
+.img img{
+  position: relative;
+  padding-top: 25px;
+  margin-left: 25px;
+  padding-left: 25px;
+}
+
+/* Style the header */
+.header {
+    font-family: Futura;
+    background-color: #FFFFFF;
+    border-radius: solid black;
+    color:282828;
+    position: relative;
+    padding: 25px;
+    margin-top: 25px;
+    text-align: right;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    font-family: Dolce Vita;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: normal;
+    display: table;
+    clear: both;
+}
+
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+  style: center;
+}
+
+.Profile {
+  float:right;
+  display:block;
+  width: 100px;
+  height: 100px;
+  margin-right: 25px;
+  padding-right: 25px;
+}
+
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style the footer */
+.footer {
+    font-family: Futura;
+    background-color: #282828;
+    color:white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+
+.paragraphContent {
+  color:#E2E1DC;
+}
+
+/*.col1, .col2, .col3 {
+  width: 29%;
+  height: 100px;
+  margin: 1%;
+  border: 2px solid green;
+  padding: 5px;
+  overflow: scroll;
+  float:left;
+  clear:right;
+} */
+
+nav hover{
   color: white;
-  border: 3px solid tan;
-  border-radius: 20%;
+}
+}
+/*list_styles*/
+  nav ul li {
+    list-style-type: none;
+    float: left;
+  }
+
+
+    background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+
+  .col1, .col2, .col3 {
+    style: center;
+    color: black;
+    height: 100px;
+    /*display: inline-flex;*/
+    /*margin:10px;*/
+    width:33%;
+  }
+
+.paragraphContent {
+  font-family: Futura;
+  margin:25px;
 }
 
-main {
-  height: 300px;
-  background-image: url("assets/Woman_Herb.jpg");
-  background-position: center;
-  text-align: center;
+.paragraphContent2 {
+  font-family: Futura;
+  margin:25px;
 }
+
+.paragraphContent3 {
+  font-family: Futura;
+  margin:25px;
+}
+
+nav ul li a:hover{
+  color:white;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
