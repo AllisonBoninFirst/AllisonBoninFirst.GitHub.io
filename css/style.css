@@ -7,6 +7,16 @@ body {
     background-color: #E2E1DC;
 }
 
+.call1, .call2, .call3, .call4 {
+  text-align: center;
+  position: relative;
+  color:white;
+  background-color:#282828;
+  margin-top: 10px;
+  margin-left: 40px;
+  padding:8px;
+}
+
 .img img{
   position: relative;
   padding-top: 25px;
@@ -22,16 +32,6 @@ body {
   padding:10px;
 }
 */
-
-.call1, .call2, .call3, .call4 {
-  text-align: center;
-  position: relative;
-  color:white;
-  background-color:#282828;
-  margin-top: 10px;
-  margin-left: 40px;
-  padding:8px;
-}
 
 /* Style the header */
 .header {
