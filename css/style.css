@@ -10,8 +10,27 @@ body {
 .img img{
   position: relative;
   padding-top: 25px;
-  margin-left: 25px;
+  margin-left: 10px;
   padding-left: 25px;
+}
+
+/*
+.callButton {
+  margin-top:10px;
+  margin-right: 300px;
+  margin-left:300px;
+  padding:10px;
+}
+*/
+
+.call1, .call2, .call3, .call4 {
+  text-align: center;
+  position: relative;
+  color:white;
+  background-color:#282828;
+  margin-top: 10px;
+  margin-left: 40px;
+  padding:8px;
 }
 
 /* Style the header */
@@ -19,17 +38,18 @@ body {
     font-family: Futura;
     background-color: #FFFFFF;
     border-radius: solid black;
-    color:282828;
+    color:#282828;
     position: relative;
     padding: 25px;
     margin-top: 25px;
+    margin-left: 40px;
     text-align: right;
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
     font-family: Dolce Vita;
-    float: left;
+    float:left;
     width: 33.33%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
@@ -48,14 +68,21 @@ h3 {
   style: center;
 }
 
+.portfolioHeader {
+  font-family: Futura;
+  padding-left: 40px;
+}
+
 .Profile {
   float:right;
   display:block;
   width: 100px;
   height: 100px;
   margin-right: 25px;
-  padding-right: 25px;
+  padding-right: 45px;
 }
+
+/*Girl on laptop image*/
 
 #center {
   display: block;
@@ -68,43 +95,31 @@ h3 {
     font-family: Futura;
     background-color: #282828;
     color:white;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
 
 .paragraphContent {
   color:#E2E1DC;
 }
 
-/*.col1, .col2, .col3 {
-  width: 29%;
-  height: 100px;
-  margin: 1%;
-  border: 2px solid green;
-  padding: 5px;
-  overflow: scroll;
-  float:left;
-  clear:right;
-} */
-
 nav hover{
   color: white;
 }
-}
+
+
 /*list_styles*/
   nav ul li {
     list-style-type: none;
     float: left;
   }
 
+  nav ul li a:hover{
+    color:white;
+  }
 
-    background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+
 
   .col1, .col2, .col3 {
     style: center;
@@ -116,23 +131,23 @@ nav hover{
   }
 
 .paragraphContent {
+  padding:10px;
   font-family: Futura;
   margin:25px;
 }
 
 .paragraphContent2 {
+  padding:10px;
   font-family: Futura;
   margin:25px;
 }
 
 .paragraphContent3 {
+  padding:10px;
   font-family: Futura;
   margin:25px;
 }
 
-nav ul li a:hover{
-  color:white;
-}
 
 a:link {
   color: black;
