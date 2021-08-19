@@ -13,25 +13,54 @@ header {
 }
 
 .Profile {
-  width: 200px;
-  height: 150px;
+  width:396px;
+  height:297.5px;
+  position: relative;
+  z-index:1;
+  top:-100px;
+  right:0px;
   float:right;
   display:block;
   margin-right: 25px;
   margin-top:15px;
 }
 
-.callButton {
-  float:right;
-  padding-top: 35px;
-  text-align: center;
+body {
+  font-family: Futura;
+  width:100%;
+  margin: 0px;
+  background-color: #E2E1DC;
+  padding: inherit;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
+h1 {
+  font-family: Dolce Vita;
+  margin-left: 25px;
+  margin-top: 25px;
+  padding-top: 25px;
+}
 
-body {
-    width:100%;
-    margin: 0px;
-    background-color: #E2E1DC;
+/* NAVIGATION BUTTONS */
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*nav button {
+  background-color: #282828;
+  color:white;
+}*/
+
+.callButton {
+  float:left;
+  padding-top: 30px;
+  text-align: center;
 }
 
 .call1, .call2, .call3, .call4 {
@@ -44,26 +73,51 @@ body {
   padding:8px;
 }
 
-/*
-.img img{
-  position: relative;
-  padding-top: 25px;
-  margin-left: 10px;
-  padding-left: 25px;
+nav button:hover {
+  color:black;
+  background-color:white;
 }
-*/
 
-/*
-.callButton {
-  margin-top:10px;
-  margin-right: 300px;
-  margin-left:300px;
-  padding:10px;
+nav button a:hover {
+  color:black;
 }
-*/
+
+nav button a:visited {
+  color:white;
+}
+
+nav button a:visited:hover {
+  color:black;
+}
+
+nav {
+  float:left;
+  margin-left: 25px;
+  margin-right:25px;
+  margin-bottom: 25px;
+  margin-top:10px;
+}
+
+a:link {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+/* END OF NAVIGATION BUTTONS */
+
+/* Contact me page */
+form {
+  width:40%;
+}
+
+.contactMe {
+  float:right;
+  margin-right: 25px;
+}
+/* End of contact page */
 
 /* Style the header */
-.header {
+.hello {
     font-family: Futura;
     background-color: #FFFFFF;
     border-radius: solid black;
@@ -71,22 +125,20 @@ body {
     position: relative;
     padding: 25px;
     margin-top: 0px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
     text-align: left;
 }
 
-/* Create three equal columns that floats next to each other */
 .column {
     box-sizing: border-box;
     font-family: Dolce Vita;
     float:left;
     width: 32%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 300px;
 }
 
-/* Clear floats after the columns */
 .row:after {
     content: normal;
     display: table;
@@ -94,6 +146,7 @@ body {
 }
 
 h3 {
+  font-family: "Dolce Vita";
   margin-left: auto;
   margin-right: auto;
   style: center;
@@ -103,8 +156,6 @@ h3 {
   font-family: Futura;
   padding-left: 40px;
 }
-
-
 
 /*Girl on laptop image*/
 
@@ -123,42 +174,17 @@ h3 {
     text-align: center;
 }
 
-nav hover{
-  color: white;
-}
-
-nav {
-  margin-left: 25px;
-  margin-right:25px;
-  margin-bottom: 25px;
-}
-
-nav ul {
-  margin:0px;
-}
-
-
-/*list_styles*/
-  nav ul li {
-    list-style-type: none;
-    float: left;
-  }
-
-  nav ul li a:hover{
-    color:white;
-  }
-
 background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
 
 
-  .col1, .col2, .col3 {
-    style: center;
-    color: black;
-    height: 100px;
-    /*display: inline-flex;*/
-    /*margin:10px;*/
-    width:33%;
-  }
+.col1, .col2, .col3 {
+  style: center;
+  color: black;
+  height: 100px;
+  /*display: inline-flex;*/
+  /*margin:10px;*/
+  width:33%;
+}
 
 .paragraphContent {
   color:black;
@@ -183,19 +209,12 @@ background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690
   margin:25px;
 }
 
-
-a:link {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-  /* Nick's code */
+/* Nick's code */
 
 section {
     display:grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 100px auto;
+    grid-template-rows: 300px 300px;
     grid-row-gap: 15px;
     grid-column-gap: 15px;
     margin-left: 25px;
@@ -225,3 +244,50 @@ input[type=text] {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* about me css */
+
+.allison {
+  /*width:396px;
+  height:297.5px;
+  float:right;
+  position:relative;
+  top:25px;
+  left:60%;
+  display:inline-block;
+  margin-right: 25px;
+  margin-top:15px;*/
+  width:396px;
+  height:297.5px;
+  position: relative;
+  z-index:1;
+  top:-100px;
+  right:0px;
+  float:right;
+  display:block;
+  margin-right: 25px;
+  margin-top:15px;
+}
+
+.aboutMe {
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: white;
+  padding: 15px;
+}
+
+.shapeMe {
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: white;
+  padding: 15px;
+}
+
+.Education {
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: white;
+  padding: 15px;
+}
+
+/* end of about me css*/
