@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Dolce_Vita";
+  src: url("./assets/fonts/Dolce_Vita.ttf") format("truetype");
+}
+
 header {
   box-sizing: border-box;
   height:150px;
@@ -38,11 +43,6 @@ h1 {
   margin-left: 25px;
   margin-top: 25px;
   padding-top: 25px;
-}
-
-@font-face {
-  font-family: "Dolce_Vita";
-  src: url("./assets/fonts/Dolce_Vita.ttf") format("truetype");
 }
 
 h3 {
