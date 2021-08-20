@@ -1,6 +1,6 @@
 @font-face {
-  font-family:"Dolce_Vita";
-  src: url("../assets/fonts/Dolce_Vita.ttf") format("truetype");
+  font-family:Dolce_Vita;
+  src: url(../assets/fonts/Dolce_Vita.ttf) format("truetype");
 }
 
 header {
@@ -39,14 +39,14 @@ body {
 }
 
 h1 {
-  font-family: "Dolce_Vita";
+  font-family:Dolce_Vita;
   margin-left: 25px;
   margin-top: 25px;
   padding-top: 25px;
 }
 
 h3 {
-  font-family:"Dolce_Vita";
+  font-family:Dolce_Vita;
   margin-left: auto;
   margin-right: auto;
   style: center;
