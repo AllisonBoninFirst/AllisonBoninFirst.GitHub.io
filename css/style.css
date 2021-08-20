@@ -1,6 +1,6 @@
 @font-face {
-  font-family:"Dolce_Vita";
-  src: url("./assets/fonts/Dolce_Vita.ttf") format("truetype");
+  font-family:"Dolce_Vita"cursive;
+  src: url("../assets/fonts/Dolce_Vita.ttf") format("truetype");
 }
 
 header {
