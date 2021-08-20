@@ -40,6 +40,11 @@ h1 {
   padding-top: 25px;
 }
 
+@font-face {
+  font-family: "Dolce Vita";
+  src: url("Dolce Vita.ttf");
+}
+
 h3 {
   font-family:"Dolce Vita";
   margin-left: auto;
@@ -287,6 +292,11 @@ input[type=text] {
   padding: 15px;
 }
 /* end of about me css*/
+
+.aboutThis {
+  margin:20px;
+  padding:10px;
+}
 
 .portfolio {
   margin:20px;
