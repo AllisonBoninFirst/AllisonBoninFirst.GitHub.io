@@ -41,8 +41,8 @@ h1 {
 }
 
 @font-face {
-  font-family: "Dolce Vita";
-  src: url("Dolce Vita.ttf");
+  font-family: "Dolce_Vita";
+  src: url("./assets/fonts/Dolce_Vita.ttf");
 }
 
 h3 {
