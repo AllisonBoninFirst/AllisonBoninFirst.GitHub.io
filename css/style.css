@@ -40,9 +40,14 @@ h1 {
   padding-top: 25px;
 }
 
+h3 {
+  font-family:"Dolce Vita";
+  margin-left: auto;
+  margin-right: auto;
+  style: center;
+}
+
 /* NAVIGATION BUTTONS */
-
-
 .center {
   display: block;
   margin-left: auto;
@@ -142,13 +147,6 @@ form {
     content: normal;
     display: table;
     clear: both;
-}
-
-h3 {
-  font-family: "Dolce Vita";
-  margin-left: auto;
-  margin-right: auto;
-  style: center;
 }
 
 .portfolioHeader {
@@ -275,7 +273,7 @@ input[type=text] {
   padding: 15px;
 }
 
-.shapeMe {a
+.shapeMe {
   margin-left: 25px;
   margin-right: 25px;
   background-color: white;
