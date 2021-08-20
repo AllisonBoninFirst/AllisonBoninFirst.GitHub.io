@@ -31,8 +31,6 @@ body {
   margin: 0px;
   background-color: #E2E1DC;
   padding: inherit;
-  margin-left: 25px;
-  margin-right: 25px;
 }
 
 h1 {
@@ -118,6 +116,7 @@ form {
 
 /* Style the header */
 .hello {
+    box-sizing:border-box;
     font-family: Futura;
     background-color: #FFFFFF;
     border-radius: solid black;
@@ -276,7 +275,7 @@ input[type=text] {
   padding: 15px;
 }
 
-.shapeMe {
+.shapeMe {a
   margin-left: 25px;
   margin-right: 25px;
   background-color: white;
@@ -289,5 +288,9 @@ input[type=text] {
   background-color: white;
   padding: 15px;
 }
-
 /* end of about me css*/
+
+.portfolio {
+  margin:20px;
+  padding:10px;
+}
