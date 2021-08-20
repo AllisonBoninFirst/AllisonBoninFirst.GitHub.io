@@ -42,7 +42,7 @@ h1 {
 
 @font-face {
   font-family: "Dolce_Vita";
-  src: url("./assets/fonts/Dolce_Vita.ttf");
+  src: url("./assets/fonts/Dolce_Vita.ttf") format("truetype");
 }
 
 h3 {
