@@ -167,6 +167,16 @@ form {
   margin-right: auto;
 }
 
+.myInfo {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  color:white;
+  background-color: #A04B12;
+  padding: 10px;
+}
+
+
 /* Style the footer */
 .footer {
     font-family: Futura;
@@ -250,15 +260,6 @@ input[type=text] {
 /* about me css */
 
 .allison {
-  /*width:396px;
-  height:297.5px;
-  float:right;
-  position:relative;
-  top:25px;
-  left:60%;
-  display:inline-block;
-  margin-right: 25px;
-  margin-top:15px;*/
   width:396px;
   height:297.5px;
   position: relative;
