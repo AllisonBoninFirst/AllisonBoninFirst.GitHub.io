@@ -176,6 +176,15 @@ form {
   padding: 10px;
 }
 
+.getInspired {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  color:white;
+  border:2px solid white;
+  padding: 10px;
+}
+
 
 /* Style the footer */
 .footer {
