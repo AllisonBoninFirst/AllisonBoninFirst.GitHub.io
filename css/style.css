@@ -1,3 +1,7 @@
+
+/*$desktop:1200px;
+$phone:480px; */
+
 @font-face {
   font-family:"DolceVita";
   src: url("../assets/fonts/DolceVita.ttf") format("truetype");
@@ -31,6 +35,7 @@ header {
 }
 
 body {
+  box-sizing: border-box;
   font-family: Futura;
   width:100%;
   margin: 0px;
@@ -52,18 +57,18 @@ h3 {
   style: center;
 }
 
-/* NAVIGATION BUTTONS */
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+/* HEADER NAVIGATION BUTTONS */
+.columnSection {
+  flex-basis: 100%;
 }
 
-/*nav button {
-  background-color: #282828;
-  color:white;
-}*/
+.center {
+  display: block;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
 
 .callButton {
   float:left;
@@ -77,7 +82,7 @@ h3 {
   color:white;
   background-color:#282828;
   margin-top: 10px;
-  margin-left: 5px;
+  margin-left: 10px;
   padding:8px;
 }
 
@@ -111,11 +116,13 @@ a:link {
   background-color: transparent;
   text-decoration: none;
 }
-/* END OF NAVIGATION BUTTONS */
+/* END OF HEADER NAVIGATION BUTTONS */
 
 /* Contact me page */
-form {
+.contactForm {
+  float:left;
   width:40%;
+  margin-left: 25px;
 }
 
 .contactMe {
@@ -159,9 +166,40 @@ form {
   padding-left: 40px;
 }
 
-/*Girl on laptop image*/
 
-#center {
+/* Home Page Info Display */
+section {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 300px 300px;
+  grid-row-gap: 15px;
+  grid-column-gap: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.column1, .column2, .column3, .column4 {
+  font-family: Futura;
+  background-color: white;
+  padding: 25px;
+}
+
+textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+}
+
+input[type=text] {
+  width:90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Girl on laptop image*/
+#laptop {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -195,8 +233,9 @@ form {
     text-align: center;
 }
 
+/*
 background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
-
+*/
 
 .col1, .col2, .col3 {
   style: center;
@@ -229,48 +268,12 @@ background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690
   font-family: Futura;
   margin:25px;
 }
-
-/* Nick's code */
-
-section {
-    display:grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 300px 300px;
-    grid-row-gap: 15px;
-    grid-column-gap: 15px;
-    margin-left: 25px;
-    margin-right: 25px;
-  }
-
-section div {
-
-}
-
-.column1, .column2, .column3, .column4 {
-  font-family: Futura;
-  background-color: white;
-  padding: 25px;
-}
-
-textarea {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:80%;
-}
-
-input[type=text] {
-  width:90%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* end home page */
 
 /* about me css */
-
 .allison {
-  width:396px;
-  height:297.5px;
+  width:250px;
+  height:250px;
   position: relative;
   z-index:1;
   top:-100px;
@@ -303,6 +306,14 @@ input[type=text] {
 }
 /* end of about me css*/
 
+/* PORTFOLIO / CAROUSEL INFO */
+.flex-container {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:
+}
+
 .aboutThis {
   margin:20px;
   padding:10px;
@@ -311,4 +322,15 @@ input[type=text] {
 .portfolio {
   margin:20px;
   padding:10px;
+}
+
+.photoButton {
+  text-align: center;
+  position: relative;
+  color:white;
+  background-color:#282828;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding:8px;
+  justify-content: center;
 }

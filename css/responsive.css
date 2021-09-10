@@ -1,0 +1,64 @@
+@media only screen and (min-width: 1080px)
+{
+
+}
+
+@media only screen and (max-width:600px){
+/* INDEX HTML */
+  header {
+    overflow: visible;
+  }
+  .logo {
+    height:60px;
+    width:150px;
+  }
+  .call1, .call2, .call3, .call4  {
+    justify-content: center;
+    margin-bottom: 4px;
+    padding:7px;
+    font-size: 14px;
+  }
+  .Profile {
+    width:224px;
+    height:174px;
+    top:-30px;
+  }
+   section {
+     display:flex;
+     flex-wrap:wrap;
+     flex-direction:column;
+   }
+   .column1 {order:1;}
+   .column2 {order:3;}
+   .column3 {order:5;}
+   .col4 {order:2;}
+   .col5 {order:4;}
+   .col6 {order:6;}
+
+  /* ABOUT HTML */
+  .allison {
+    width:200px;
+    height:200px;
+    top:-50px;
+  }
+
+  /* CONTACT HTML */
+  .contactMe {
+    clear:both;
+  }
+  form {
+    clear:both;
+  }
+  .form2 {
+    clear:both;
+  }
+
+  /* PORTFOLIO HTML */
+  .portfolio {
+
+  }
+  .webAd {
+    width: 100%;
+    height: 70%;
+  }
+}
