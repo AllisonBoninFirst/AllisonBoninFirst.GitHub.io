@@ -43,14 +43,13 @@
   }
 
   /* CONTACT HTML */
-  .contactMe {
-    clear:both;
+  .leftFormArea {
+    width:100%;
+    margin-right: 25px;
   }
-  form {
-    clear:both;
-  }
-  .form2 {
-    clear:both;
+  .rightFormArea {
+    width:100%;
+    text-align: center;
   }
 
   /* PORTFOLIO HTML */
