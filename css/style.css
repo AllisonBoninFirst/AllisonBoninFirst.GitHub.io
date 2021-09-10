@@ -351,3 +351,17 @@ background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690
   padding:8px;
   justify-content: center;
 }
+
+.photoButton a {
+  text-decoration: none;
+  color:white;
+}
+
+.photoButton a:hover {
+  color:black;
+}
+
+.photoButton:hover {
+  background-color: white;
+  color:black;
+}
