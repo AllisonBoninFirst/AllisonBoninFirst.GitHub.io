@@ -250,7 +250,7 @@ background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690
   height: 100px;
   /*display: inline-flex;*/
   /*margin:10px;*/
-  width:33%;
+  width:100%;
 }
 
 .paragraphContent {
@@ -315,10 +315,10 @@ background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690
 
 /* PORTFOLIO / CAROUSEL INFO */
 .branding-container {
-display:flex;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content:space-around;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-around;
 }
 
 #brand1 {width:100%;text-align: left;}
@@ -329,15 +329,6 @@ justify-content:space-around;
 #brand4 {width:40%;}
 
 .branding-container img {width:100%;}
-
-/*
-.flex-container {
-  display:flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content:
-}
-*/
 
 .aboutThis {
   margin:20px;
