@@ -54,7 +54,7 @@ h3 {
   font-family:DolceVita;
   margin-left: auto;
   margin-right: auto;
-  style: center;
+  text-align: left;
 }
 
 /* HEADER NAVIGATION BUTTONS */
@@ -314,12 +314,30 @@ background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690
 /* end of about me css*/
 
 /* PORTFOLIO / CAROUSEL INFO */
+.branding-container {
+display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content:space-around;
+}
+
+#brand1 {width:100%;text-align: left;}
+#brand1 img {width:20%}
+#brand2 {width:100%;text-align: left;margin-bottom: 20px;}
+#brand2 img {width:30%}
+#brand3 {width:40%;}
+#brand4 {width:40%;}
+
+.branding-container img {width:100%;}
+
+/*
 .flex-container {
   display:flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content:
 }
+*/
 
 .aboutThis {
   margin:20px;
@@ -327,6 +345,7 @@ background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690
 }
 
 .portfolio {
+  text-align: center;
   margin:20px;
   padding:10px;
 }
