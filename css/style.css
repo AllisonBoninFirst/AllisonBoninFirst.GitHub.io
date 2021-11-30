@@ -381,3 +381,8 @@ background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690
   background-color: white;
   color:black;
 }
+
+.mag-container {
+  justify-content: center;
+  margin:auto;
+}
