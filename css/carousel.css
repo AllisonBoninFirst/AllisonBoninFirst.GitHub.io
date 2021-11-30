@@ -1,11 +1,13 @@
 * {box-sizing:border-box}
 
 .goBack {
-  color: white;
-  text-decoration: none;
+  font-family: Futura;
   text-align: center;
   position: relative;
+  color:white;
   background-color:#282828;
+  border:none;
+  border-radius: 25px;
   margin-top: 10px;
   margin-left: 10px;
   padding:8px;
@@ -17,14 +19,35 @@
   color:white;
 }
 
-.goBack a:hover {
-  color:black;
+.goBack:hover {
+  animation: pulse 3s;
 }
 
-.goBack:hover {
-  background-color: white;
-  color:black;
+
+/* CAPTURED MOMENTS CSS
+.photoButton {
+  font-family: Futura;
+  text-align: center;
+  position: relative;
+  color:white;
+  background-color:#282828;
+  border:none;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding:8px;
+  justify-content: center;
 }
+
+.photoButton a {
+  text-decoration: none;
+}
+
+.photoButton:hover {
+  animation: pulse 3s;
+}
+*/
+
 
 @font-face {
   font-family:"DolceVita";
