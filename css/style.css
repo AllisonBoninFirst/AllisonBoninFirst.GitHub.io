@@ -19,6 +19,7 @@ header {
   float:left;
   margin-left: 25px;
   margin-top: 25px;
+  animation: fadeInDown 3s;
 }
 
 .Profile {
@@ -89,6 +90,7 @@ h3 {
 nav button:hover {
   color:black;
   background-color:white;
+  animation: pulse 2s;
 }
 
 nav button a:hover {
@@ -119,12 +121,16 @@ a:link {
 /* END OF HEADER NAVIGATION BUTTONS */
 
 /* Contact me page */
+.alt-contact {margin-left: 25px;}
+
 form {
   float:left;
 }
+
 .contactForm {
   margin-left: 25px;
 }
+
 .form2 {
   margin-left: 25px;
 }
@@ -143,6 +149,11 @@ float:right;
 width:50%;
 margin-bottom: 100px;
 }
+
+input, textarea {
+  border: solid white;
+}
+
 /* End of contact page */
 
 /* Style the header */
@@ -203,6 +214,10 @@ input[type=text] {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.Profile {
+  animation: backInRight 3s;
 }
 
 /*Girl on laptop image*/
@@ -289,6 +304,7 @@ background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690
   display:block;
   margin-right: 25px;
   margin-top:15px;
+  animation: backInRight 3s;
 }
 
 .aboutMe {
