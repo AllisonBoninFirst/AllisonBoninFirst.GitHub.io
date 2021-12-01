@@ -374,6 +374,10 @@ background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690
   color:white;
 }
 
+.photobutton a:hover {
+  color:white;
+}
+
 .photoButton:hover {
   animation: pulse 3s;
 }
