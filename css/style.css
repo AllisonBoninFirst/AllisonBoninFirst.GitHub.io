@@ -359,7 +359,7 @@ background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690
   font-family: Futura;
   text-align: center;
   position: relative;
-  color:white;
+  color:white !important;
   background-color:#282828;
   border:none;
   border-radius: 25px;
@@ -371,11 +371,11 @@ background-image: URL (https://images.pexels.com/photos/57690/pexels-photo-57690
 
 .photoButton a {
   text-decoration: none;
-  color:white;
+  color:white !important;
 }
 
 .photobutton a:hover {
-  color:white;
+  color:white !important;
 }
 
 .photoButton:hover {
